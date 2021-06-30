@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box{
+  padding: 50px;
+  background-color: rgb(42, 42, 80);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  /* justify-content: center; */
+  padding: 10px;
+  width: 40vw;
+  margin: 20px ;
+  background-color: rgba(184, 199, 226, 0.897);
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px rgb(25, 25, 27);
+    
+}
+img{
+  border-radius: 50%;
+  margin-left: 20px;
+  border:1px solid rgb(42, 42, 80);
+}
+.info{
+  display: flex;
+  flex-direction: column;
+}
+.name,.mail{
+  background-color: rgba(184, 199, 226, 0.897);
+  margin-left: 50px;
+  padding: 10px 5px;
+}
+
+.mail{
+  margin-top: 20px;
+}
